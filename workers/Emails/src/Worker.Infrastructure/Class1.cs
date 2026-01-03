@@ -1,4 +1,4 @@
-﻿namespace Auth.Appplication
+﻿namespace Worker.Infrastructure
 {
     public class Class1
     {

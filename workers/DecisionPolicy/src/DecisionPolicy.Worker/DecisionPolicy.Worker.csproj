@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-DecisionPolicy.Worker-bb44d137-5450-43a2-859b-d5c6ede6f479</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DecisionPolicy.Application\DecisionPolicy.Application.csproj" />
+    <ProjectReference Include="..\DecisionPolicy.Infraestructure\DecisionPolicy.Infraestructure.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,4 +1,4 @@
-﻿namespace Auth.Domain
+﻿namespace Emails.Domain
 {
     public class Class1
     {
